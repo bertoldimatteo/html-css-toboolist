@@ -13,6 +13,8 @@ ul {
     list-style-type: none;
 }
 
+/* fine tag principali */
+
 .intestazione {
     background-color: #fff;
     padding: 10px 20px;
@@ -27,19 +29,49 @@ ul {
     vertical-align: middle;
 }
 
+/* fine classi header */
+
 .container {
     width: 1440px;
     background-color: #fff;
     margin: 60px auto;
+    border-radius: 5px;
 }
 
 .padding-left{
     padding-left: 50px;
 }
 
+/* buttons */
+
+.bt {
+    padding: 5px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+.bt-blue {
+    color: #fff;
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+}
+
+.bt-white {
+    color: #ccd2d6;
+    background-color: #fff;
+    border: 1px solid #ccd2d6;
+}
+
+/* /buttons */
+
+.hr-color {
+    border: 1px solid #f6f8f9;
+}
+
 .nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .divisore {
@@ -50,4 +82,27 @@ ul {
 .divisore-li {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.round {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.check {
+    color: #65c0a9;
+    background-color: #fff;
+    border: 1px solid #65c0a9;
+}
+
+.cross {
+    color: #eb5952;
+    background-color: #fff;
+    border: 1px solid #eb5952;
 }
