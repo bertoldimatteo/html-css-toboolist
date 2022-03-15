@@ -106,3 +106,37 @@ ul {
     background-color: #fff;
     border: 1px solid #eb5952;
 }
+
+.container small {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.blue {
+    background-color: #45abea;
+}
+
+.violet {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
+.pink {
+    background-color: #d863a1;
+}
+
+.light-green {
+    background-color: #b0c926;
+}
