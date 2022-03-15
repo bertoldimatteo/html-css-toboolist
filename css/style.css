@@ -9,6 +9,10 @@ body {
     background-color: #f6f8f9;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .intestazione {
     background-color: #fff;
     padding: 10px 20px;
@@ -21,4 +25,19 @@ body {
 .text-logo {
     display: inline-block;
     vertical-align: middle;
+}
+
+.container {
+    width: 1440px;
+    background-color: #fff;
+    margin: 60px auto;
+}
+
+.padding-left{
+    padding-left: 50px;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
